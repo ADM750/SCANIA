@@ -18,7 +18,7 @@ __This project aims to develop an accurate and automated system for pneumonia de
 * Seaborn
 * Keras
 ## Installation
-1. Clone the repository: git clone https://github.com/your_username/pneumonia-detection.git
+1. Clone the repository: git clone https://github.com/Drtech-859/SCANIA
 2. Navigate to the project directory: cd pneumonia-detection
 3. Install the required dependencies: pip install -r requirements.txt
 ## Usage
