@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:15vh 0;
+}
+.card-container .card img{
+    width: 60%;
+    height: auto;
+
+}
+.card-container .card{
+    width: 300px;
+    height: 320px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 8px  0px rgba(0,0,0,0.2);
+}
+.card-container .card h2{
+    margin-inline-end: 15px 0px;
+    font-size: 28px;
+    color: #1662a1;
+    font-family: sans-serif;
+}
+.card-container .card p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.card-container .card .card-btn{
+    width: 40%;
+    height: 30px;
+    background-color: #11101b;
+    color: #fefefe;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.card-container .card .card-btn:hover{
+    background-color: #fefefe;
+    border: 1px solid #11101b;
+    color: #11101b;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+
+
+@media screen and (max-width:900px){
+    .card-container{
+        flex-direction: column;
+        padding:5vh 0vh;
+    }
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2vh 2vw;
+    font-size: 16px;
+    background-color: #1662a1;
+    color: #fefefe;
+}
+
+.footer .footer-el h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2vh;
+    font-size: 20px;
+}
+
+@media screen and (max-width:900px){
+    .footer{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 20vh;
+    }
+    .footer .footer-el{
+        text-align: center;
+    }
+}
